@@ -14,13 +14,13 @@ public class ArithmeticUtilsTest {
 		int res;
 		
 		res = ArithmeticUtils.gcd(a, b);
-		assertEquals(1,res);
+		assertEquals(10,res);
 		
 		res = ArithmeticUtils.gcd(a, c);
-		assertEquals(10,res);
+		assertEquals(1,res);
 		
 		res = ArithmeticUtils.gcd(c, b);
-		assertEquals(10,res);
+		assertEquals(1,res);
 		//fail("Not yet implemented");
 	}
 	
